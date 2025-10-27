@@ -55,3 +55,22 @@ Follow the steps below to get your own version up and running:
 6.  Create a new **Trigger ⏰** for the `verificarAniversarios` function. Configure it to run on a `Time-driven` basis using a `Day-timer`.
 
 That's it! The system will now run automatically every day.
+
+---
+
+## 🗺️ Future Features & Roadmap
+
+This section outlines potential improvements and new features for the project.
+
+-   `[ ]` **Age Calculation in Notifications:**
+    -   Add a `Year` column to the Google Sheet to store the birth year.
+    -   The script will then calculate the person's upcoming age and include it in the message (e.g., "Reminder: Tomorrow is Jane's 30th birthday! 🥳").
+
+-   `[ ]` **Google Forms Integration for Easy Entry:**
+    -   Create a Google Form that populates the Google Sheet. This would allow adding new birthdays from any device without directly editing the spreadsheet, making it more user-friendly.
+
+-   `[ ]` **Advanced Reminders (1 Month Prior):**
+    -   Implement an additional check to send a second notification a month before the birthday, providing more time to plan or buy a gift.
+
+-   `[ ]` **Weekly/Monthly Digest:**
+    -   Set up a secondary trigger (e.g., to run every Sunday) that sends a summary of all upcoming birthdays for the next week or month, providing a high-level overview.
